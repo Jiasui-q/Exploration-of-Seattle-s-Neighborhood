@@ -1,0 +1,23 @@
+  Introduction
+  
+	Seattle has always been viewed as a famous city with its unique culture and history. Coffee, movies, big businesses, 
+  stunning views of nature, and other features of this city have attracted hundreds of thousands of visitors to come. 
+  Every year during March and April, people flock to Seattle to take a look at the gorgeous cherry-blossom at the University
+  of Washington. Not just during spring, according to new data released at Visit Seattle's Annual Meeting, the city and 
+  county have welcomed a record of 40.9 million visitors last year in 2018. With growing number of visitors each year, 
+  Seattle is becoming more and more popular. 
+	
+  For a visitor who comes to Seattle for the first time, it’s good to know what places worth visiting the most. Information 
+  about local stores and their ratings would largely help him to make his traveling plan and schedule wisely. In this way, 
+  he will less likely to waste his time and money while visiting.
+  
+
+  Data Description
+  
+  1) I first explored cities in Washington state according to unique postal codes. Data is collected from the GeoNames 
+     geographical database. I scraped and cleaned the web page to get information of postal codes, city names, their 
+     corresponding latitudes and longitudes.
+  2) I used the geocoding library to get the center coordinates of Seattle, University of Washington, and the University 
+     Village.
+  3) Nearby venues of given cities, University of Washington, University Village, as well as ratings of venues are all 
+     extracted from Forsquare API.
